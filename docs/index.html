@@ -11,22 +11,20 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-tooltip@3.0.2/dist/css/bulma-tooltip.min.css" />
 
   <title>simple Games Quickview</title>
+  <style>
+     html {overflow: hidden;}
+  </style>
 </head>
 
-<body style="text-align: center; background-color: #375A7F";>
+<body>
   <article>
     <!-- <div class="quickview quickT" style="overflow-y: scroll"> -->
       <div class="box p-2" style="background-color: #375A7F">
-        <header class="quickview-header is-flex is-justify-content-center">
+        <header class="is-flex is-justify-content-center pb-2">
           <p class="is-size-4 has-text-white">シンプルゲーム</p>
-          <!-- <span class="delete deleteQV" onClick={()=> {
-            $$.qcL('.quickT')
-          "
-            // data-dismiss="quickview"
-            ></span> -->
         </header>
 
-        <div class="quickview-body">
+        <div class="">
           <article class="message is-primary mb-0">
             <div class="message-header pb-2 is-flex is-justify-content-center">
               <span>リンク先</span>
@@ -121,7 +119,7 @@
           </article>
         </div>
 
-        <footer class="quickview-footer has-background-primary mt-2 pb-3 is-flex is-justify-content-center">
+        <footer class="has-background-primary mt-2 pb-3 is-flex is-justify-content-center">
           <div class="mt-3" style="width: 500px">
             <div class="is-half-mobile is-one-quarter-desktop">
               <h6 class="title arch is-size-5 pb-1 pt-1 mb-4">
